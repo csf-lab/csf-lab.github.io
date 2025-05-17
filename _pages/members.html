@@ -1,12 +1,14 @@
 <div class="card">
   <div class="bg">
-    <img src="{{ person.photo }}" alt="{{ person.name }}" style="width: 80px; border-radius: 50%;">
-    <h3 style="margin-top: 10px;">{{ person.name }}</h3>
-    <p>{{ person.engName }}</p>
-    <p>{{ person.jobtitle }}</p>
-    <p style="font-size: 0.9em;">{{ person.bio }}</p>
+    <img src="{{ person.photo }}" alt="{{ person.name }}" style="width: 80px; height: 80px; object-fit: cover; border-radius: 50%; margin-bottom: 0.5rem;">
+    
+    <h3 style="margin: 0;">{{ person.name }}</h3>
+    <p style="margin: 0; font-size: 0.9em; color: #333;">{{ person.engName }}</p>
+    <p style="font-size: 0.85em; font-weight: bold;">{{ person.jobtitle }}</p>
+    <p style="font-size: 0.8em; color: #666;">{{ person.bio }}</p>
+    
     {% if person.email %}
-      <a href="mailto:{{ person.email }}">📧</a>
+      <a href="mailto:{{ person.email }}" style="margin-top: 0.5rem; display: inline-block;">📧</a>
     {% endif %}
   </div>
   <div class="blob"></div>
