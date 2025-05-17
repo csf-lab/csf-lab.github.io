@@ -43,6 +43,14 @@
   animation: blob-bounce 5s infinite ease;
 }
 
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+
 @keyframes blob-bounce {
   0% {
     transform: translate(-100%, -100%) translate3d(0, 0, 0);
