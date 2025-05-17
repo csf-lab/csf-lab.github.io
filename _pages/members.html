@@ -1,15 +1,30 @@
 <div class="card">
   <div class="bg">
-    <img src="{{ person.photo }}" alt="{{ person.name }}" style="width: 80px; height: 80px; object-fit: cover; border-radius: 50%; margin-bottom: 0.5rem;">
+    <img src="/img/{{ person.portrait | default: 'anonymous.jpg' }}" alt="{{ person.name }}"
+         style="width: 80px; height: 80px; object-fit: cover; border-radius: 50%; margin-bottom: 0.5rem;">
     
-    <h3 style="margin: 0;">{{ person.name }}</h3>
-    <p style="margin: 0; font-size: 0.9em; color: #333;">{{ person.engName }}</p>
-    <p style="font-size: 0.85em; font-weight: bold;">{{ person.jobtitle }}</p>
-    <p style="font-size: 0.8em; color: #666;">{{ person.bio }}</p>
-    
-    {% if person.email %}
-      <a href="mailto:{{ person.email }}" style="margin-top: 0.5rem; display: inline-block;">📧</a>
-    {% endif %}
+    <h3>{{ person.name }}</h3>
+    <p class="eng">{{ person.engName }}</p>
+    <p class="jobtitle">{{ person.jobtitle }}</p>
+    <p class="bio">{{ person.bio }}</p>
+
+    <div class="sns-icons">
+      {% if person['e-mail'] %}
+        <a href="mailto:{{ person['e-mail'] }}" title="Email">📧</a>
+      {% endif %}
+      {% if person.fb %}
+        <a href="https://facebook.com/{{ person.fb }}" title="Facebook" target="_blank">🌐</a>
+      {% endif %}
+      {% if person.linked %}
+        <a href="https://linkedin.com/in/{{ person.linked }}" title="LinkedIn" target="_blank">💼</a>
+      {% endif %}
+      {% if person.twitter %}
+        <a href="https://twitter.com/{{ person.twitter }}" title="Twitter" target="_blank">🐦</a>
+      {% endif %}
+      {% if person.instagram %}
+        <a href="https://instagram.com/{{ person.instagram }}" title="Instagram" target="_blank">📸</a>
+      {% endif %}
+    </div>
   </div>
   <div class="blob"></div>
 </div>
