@@ -1,7 +1,5 @@
 - title: Welcome to the Cyber Security & Forensics Lab
-  notice: ---
-We're dedicated to safeguarding the digital world. Our research delves into critical areas like **Digital Forensics**, meticulously analyzing digital evidence to investigate cyber incidents; **Software Supply Chain Security**, protecting the entire software development lifecycle; **DNS Security**, securing foundational internet infrastructure; and **Blockchain Security**, exploring the robust defense of distributed ledger technologies. We're committed to pioneering innovative solutions that tackle complex cyber threats and contribute to a more secure digital future for everyone.
----
+  notice: We're dedicated to safeguarding the digital world. Our research delves into critical areas like **Digital Forensics**, meticulously analyzing digital evidence to investigate cyber incidents; **Software Supply Chain Security**, protecting the entire software development lifecycle; **DNS Security**, securing foundational internet infrastructure; and **Blockchain Security**, exploring the robust defense of distributed ledger technologies. We're committed to pioneering innovative solutions that tackle complex cyber threats and contribute to a more secure digital future for everyone.
   status: open
 
 # - title: 두번째 공지
