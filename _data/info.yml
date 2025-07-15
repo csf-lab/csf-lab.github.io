@@ -1,6 +1,6 @@
 overview:
-  - 이 연구실은 아주 좋은 연구실 입니다.
-  - 연구실에 대한 대략적인 소개를 _data 폴더의 info.yml 파일에 써 주세요.
+  - CSF Lab, Cyber Security and Forensics Laboratory, is a cybersecurity research group dedicated to advancing threat detection, digital investigation, and secure system design. The lab is part of the Department of Software Convergence at Kyung Hee University and is led by Professor Jeman Park.
+  - Our research covers a broad spectrum of security domains, including Digital Forensics, Software Supply Chain Security, DNS Security, and Blockchain Security. We combine theoretical insights with practical tools to tackle real-world cyber threats, with a focus on system resilience, traceability, and proactive defense. CSF Lab strives to contribute to a safer digital future through innovative research and cross-disciplinary collaboration.
 
 mainFig:
   - frontImg_1.jpg
