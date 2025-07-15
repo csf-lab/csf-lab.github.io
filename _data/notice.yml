@@ -1,15 +1,15 @@
-- title: # Digital Forensics
+- title: Digital Forensics
   notice: We investigate cyber incidents by analyzing digital evidence with precision, helping uncover the cause and scope of attacks. Our work aids law enforcement, incident response, and threat attribution.
   status: open
 
-- title: \# Software Supply Chain Security
+- title: Software Supply Chain Security
   notice: We focus on securing every stage of the software development process—from code creation to deployment—preventing tampering, dependency attacks, and malicious injections.
   status: open
 
-- title: \# DNS Security
+- title: DNS Security
   notice: We protect the integrity and availability of DNS infrastructure, defending against spoofing, cache poisoning, and domain hijacking that threaten the backbone of the internet.
   status: open
 
-- title: \# Blockchain Security
+- title: Blockchain Security
   notice: We examine vulnerabilities in smart contracts and consensus mechanisms to enhance the resilience of decentralized systems, enabling safer adoption of blockchain technologies.
   status: open
