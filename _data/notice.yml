@@ -1,12 +1,15 @@
-- title: Welcome to the Cyber Security & Forensics Lab
-  notice: We're dedicated to safeguarding the digital world. Our research delves into critical areas like **Digital Forensics**, meticulously analyzing digital evidence to investigate cyber incidents; **Software Supply Chain Security**, protecting the entire software development lifecycle; **DNS Security**, securing foundational internet infrastructure; and **Blockchain Security**, exploring the robust defense of distributed ledger technologies. We're committed to pioneering innovative solutions that tackle complex cyber threats and contribute to a more secure digital future for everyone.
+- title: \# Digital Forensics
+  notice: We investigate cyber incidents by analyzing digital evidence with precision, helping uncover the cause and scope of attacks. Our work aids law enforcement, incident response, and threat attribution.
   status: open
 
-# - title: 두번째 공지
-#   notice: 이 공지는 보이지 않습니다. (status가 close 입니다)
-#   status: close
+- title: \# Software Supply Chain Security
+  notice: We focus on securing every stage of the software development process—from code creation to deployment—preventing tampering, dependency attacks, and malicious injections.
+  status: open
 
+- title: \# DNS Security
+  notice: We protect the integrity and availability of DNS infrastructure, defending against spoofing, cache poisoning, and domain hijacking that threaten the backbone of the internet.
+  status: open
 
-# - title: 학생모집
-#   notice: 야심찬 학생 찾아오세요.
-#   status: open
+- title: \# Blockchain Security
+  notice: We examine vulnerabilities in smart contracts and consensus mechanisms to enhance the resilience of decentralized systems, enabling safer adoption of blockchain technologies.
+  status: open
