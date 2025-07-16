@@ -1,6 +1,9 @@
 /*=========================================================
    outbox
 ===========================================================*/
+body, html {
+  font-family: 'Arial', 'Helvetica', 'Noto Sans KR', sans-serif !important;
+}
 
 #outbox {
     position: relative; /* child elements are relative to this */
