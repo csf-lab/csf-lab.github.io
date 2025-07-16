@@ -527,5 +527,10 @@ body, html {
   color: #f0f0f0;
 }
 
+.news-title   { font-weight: 700; }
+.news-date    { font-size: .875rem; color: #888; }
+.news-subtitle{ color: #6ab0f3; }
+.news-item    { line-height: 1.6; }
+
 /* —— 전역 다크 배경 —— */
 /* body, html { background:#121212 !important;  color:#e0e0e0 !important; } */
