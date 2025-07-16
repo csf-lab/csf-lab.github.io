@@ -44,10 +44,10 @@ layout: default
   {% endfor %}
 
   <!-- 3. Overview -->
-  <div class="row overview mt-4">
+  <div class="overview-grid">
     {% for overview in site.data.info.overview %}
-      <div class="col-12">
-        <p class="text-center">{{ overview }}</p>
+      <div class="overview-box">
+        {{ overview }}
       </div>
     {% endfor %}
   </div>
