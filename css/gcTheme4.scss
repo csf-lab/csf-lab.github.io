@@ -1,6 +1,10 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+body, html {
+  font-family: 'Arial', 'Helvetica', 'Noto Sans KR', sans-serif !important;
+}
+
 @charset "utf-8";
 @-ms-viewport       { width: device-width; }
 @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
