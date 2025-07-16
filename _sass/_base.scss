@@ -1,6 +1,10 @@
 /**
  * Reset some basic elements
  */
+body, html {
+  font-family: 'Arial', 'Helvetica', 'Noto Sans KR', sans-serif !important;
+}
+
 html {
 	height: 100%;
 	font-family: $base-font-family;
