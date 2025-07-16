@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Lab Opened!
-subtitle: 
+subtitle: ""
 date: 2023/09
-fig: 
-link: 
+fig: ""
+link: ""
 published: true
 ---
 
