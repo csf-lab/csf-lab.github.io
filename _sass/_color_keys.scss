@@ -40,16 +40,3 @@ $SatinBlack: #3D4041;
 $BlackBoudoir: #35383A;
 $ElementalGray: #8F8F8F;
 $SilverStone: #A2A3A5;
-
-/*  ────── DARK THEME OVERRIDES ──────  */
-$background-color: #121212 !default;   // 페이지 기본 배경
-$text-color:       #e0e0e0 !default;   // 기본 글자
-
-$grey:       #8e8e8e;
-$grey-light: lighten($grey, 25%);
-$grey-dark:  darken($grey, 25%);
-
-$brand-color: #6ab0f3;                 // 링크 · 버튼 포인트
-$cornflower:  $brand-color;
-$cerulean:    lighten($brand-color, 10%);
-$jungle_green:#4caf50;
