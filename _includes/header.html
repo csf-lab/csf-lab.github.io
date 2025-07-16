@@ -2,7 +2,8 @@
   <div class="container">
     <div class="navbar-brand-wrapper">
       <a class="navbar-brand mb-2 h1" href="/{% if page.language %}{{ page.language }}{% endif %}" title="Home">
-        <img class="logo" src="{{ site.logo | prepend: "/img/" | prepend: site.url}}" alt=""> {{ site.short_labname }}
+        <img class="logo" src="{{ site.logo | prepend: "/img/" | prepend: site.url}}" alt="">
+        <span class="brand-text">{{ site.short_labname }}</span>
       </a>
     </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenuBar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
