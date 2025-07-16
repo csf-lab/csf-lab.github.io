@@ -487,16 +487,16 @@ body, html {
     }
 }
 
-/* ───────── Notice 그리드 ───────── */
+/* ─── notice 네모 카드 ───────────────────────────── */
 .notice-grid{
-  display:flex;
+  display:flex;          /* 가로 줄 */
   flex-wrap:wrap;
   justify-content:center;
   gap:1rem;
   margin:2rem 0;
 }
 .notice-box{
-  width:220px;
+  width:220px;           /* 정사각형 */
   height:220px;
   background:#34495e;
   color:#fff;
@@ -513,5 +513,3 @@ body, html {
   transition:transform .2s;
 }
 .notice-box:hover{transform:scale(1.05);}
-
-/* 기존 #notice .jumbotron 스타일이 겹치면 주석 처리해도 됨 */
