@@ -5,23 +5,41 @@ menu: news
 ---
 
 <div id="news" class="container-fluid pt-4">
-  <!-- This loops through the paginated posts -->
+
   {% for post in paginator.posts %}
-    <div class="card shadow mb-5">
-      <div class="card-header">
-        <h1 class="mb-0"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-          <p class="author ml-2 mt-0 mb-0">
-            <span class="date">{{ post.date | date: "%Y.%m.%d"  }}</span>
-          </p>
+    <article class="news-item mb-4">
+
+      <!-- 제목 (굵게) -->
+      <h3 class="news-title mb-1">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h3>
+
+      <!-- 날짜 -->
+      <p class="news-date text-muted mb-2">
+        {{ post.date | date: "%B %d, %Y" }}
+      </p>
+
+      <!-- 부제나 요약 -->
+      {% if post.subtitle %}
+        <p class="news-subtitle font-italic mb-2">{{ post.subtitle }}</p>
+      {% endif %}
+
+      <!-- 본문(요약) -->
+      <div class="news-content">
+        {{ post.excerpt | strip_html | truncate: 300 }}
       </div>
-      <div class="card-body">
-        {% if post.fig %}{% if post.fig contains "http" %}<img src="{{post.fig}}"{% else %}<img src="../img/{{post.fig}}"{% endif %} class="card-img-top">{% endif %}
-        <h3 class="card-title">{{ post.subtitle }}</h3>
-        <p class="card-text text-justify">{{ post.content }}</p>
-        {% if post.link %}<a href="{{ post.link }}" class="btn btn-info">more</a>{% endif %}
-      </div>
-    </div>
+
+      <!-- ‘more’ 링크가 있을 때만 표시 -->
+      {% if post.link %}
+        <p class="mt-2"><a href="{{ post.link }}">→ more</a></p>
+      {% endif %}
+
+    </article>
+
+    <!-- 글 사이 구분선 -->
+    {% unless forloop.last %}<hr>{% endunless %}
   {% endfor %}
+
 </div>
 
 <!-- Pagination links -->
