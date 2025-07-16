@@ -513,3 +513,6 @@ body, html {
   transition:transform .2s;
 }
 .notice-box:hover{transform:scale(1.05);}
+
+/* —— 전역 다크 배경 —— */
+body, html { background:#121212 !important;  color:#e0e0e0 !important; }
