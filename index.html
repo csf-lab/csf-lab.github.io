@@ -32,16 +32,16 @@ layout: default
   </div>
 
   <!-- 2. 공지사항 -->
-  {% for item in site.data.notice %}
-    {% if item.status == "open" %}
-      <div id="notice" class="shadow-lg mb-3">
-        <div class="jumbotron">
-          <h1>{{ item.title }}</h1>
-          <p>{{ item.notice }}</p>
+  <div class="notice-grid">
+    {% for item in site.data.notice %}
+      {% if item.status == "open" %}
+        <div class="notice-box">
+          <strong>{{ item.title }}</strong>
+          <span>{{ item.notice }}</span>
         </div>
-      </div>
-    {% endif %}
-  {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
 
   <!-- 3. Overview -->
   <div class="overview-grid">
