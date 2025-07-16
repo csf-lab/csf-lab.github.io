@@ -486,3 +486,33 @@ body, html {
         content: "";
     }
 }
+
+.overview-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.overview-box {
+  width: 220px;
+  height: 220px;
+  background-color: #34495e;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Arial', 'Noto Sans KR', sans-serif;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease-in-out;
+}
+
+.overview-box:hover {
+  transform: scale(1.03);
+}
