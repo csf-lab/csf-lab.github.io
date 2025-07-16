@@ -187,6 +187,26 @@ strong.highlight {
 .warning {
     color: #a94442; /* Bootstrap .alert-danger */
 }
+
+/*  공통 배경·글자색  */
+body, html {
+  background: $background-color !important;
+  color:      $text-color       !important;
+}
+
+/*  링크  */
+a       { color:$brand-color; }
+a:hover { color:lighten($brand-color, 15%); }
+
+/*  네비게이션 바·카드·notice 등 어두운 박스  */
+.navbar,
+.notice-box,
+.overview-box,
+.card,
+.jumbotron {
+  background: #1e1e1e;  // 한 톤 밝은 어두운 회색
+  color:      $text-color;
+}
 .error {
     color: #a94442;
 }
