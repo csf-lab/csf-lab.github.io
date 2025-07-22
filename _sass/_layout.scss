@@ -492,19 +492,19 @@ body, html {
   display:flex;          /* 가로 줄 */
   flex-wrap:wrap;
   justify-content:center;
-  gap:1rem;
+  gap:1.5rem;
   margin:2rem 0;
 }
 .notice-box{
-  width:220px;           /* 정사각형 */
-  height:220px;
+  width:300px;           /* 정사각형 */
+  height:300px;
   background:#34495e;
   color:#fff;
-  padding:1rem;
+  padding:1.5rem;
   border-radius:10px;
   text-align:center;
   font-family:'Arial','Noto Sans KR',sans-serif;
-  font-size:.9rem;
+  font-size:1.25rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
