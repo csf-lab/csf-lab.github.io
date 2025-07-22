@@ -1,0 +1,30 @@
+<div class="card">
+  <div class="blob"></div>
+  <div class="bg">
+    {% if include.photo %}
+      <img src="{{ '/img/members/' | append: include.photo | relative_url }}"
+           alt="{{ include.name_en | default: include.name_ko }}"
+           class="mb-3 rounded-circle" style="width:120px;height:120px;object-fit:cover;">
+    {% endif %}
+
+    <h3>{{ include.name_ko }}</h3>
+    {% if include.name_en %}<p class="eng">{{ include.name_en }}</p>{% endif %}
+    {% if include.jobtitle %}<p class="jobtitle">{{ include.jobtitle }}</p>{% endif %}
+    {% if include.bio %}<p class="bio">{{ include.bio }}</p>{% endif %}
+
+    <div class="sns-icons">
+      {% if include.email %}
+        <a href="mailto:{{ include.email }}"><i class="fas fa-envelope"></i></a>
+      {% endif %}
+      {% if include.github %}
+        <a href="https://github.com/{{ include.github }}"><i class="fab fa-github"></i></a>
+      {% endif %}
+      {% if include.scholar %}
+        <a href="{{ include.scholar }}"><i class="fas fa-graduation-cap"></i></a>
+      {% endif %}
+      {% if include.linkedin %}
+        <a href="{{ include.linkedin }}"><i class="fab fa-linkedin"></i></a>
+      {% endif %}
+    </div>
+  </div>
+</div>
