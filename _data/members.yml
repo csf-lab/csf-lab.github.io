@@ -1,20 +1,20 @@
 PI:
-- name: 나교수
-  engName: Gehoon Chung
-  degree: DDS, PhD
-  bio: Electrophysiology, Computational Biology
-  jobtitle: Associate Professor
+- name: 박제만
+  engName: Jeman Park
+  # degree: DDS, PhD
+  # bio: Electrophysiology, Computational Biology
+  jobtitle: Assistant Professor
   portrait: anonymous.jpg
-  e-mail: gehoon@snu.ac.kr
-  web: https://wiki.snu.ac.kr/GehoonChung
-  scopus: 7102049033
-  orcid: 0000-0002-8036-0879
-  researcherID: C-5714-2008
-  loop: 406457
-  linked: gehoon
-  fb: byeongmin.lee.9
-  twitter: gehoon
-  instagram: gehoon
+  e-mail: jeman@khu.ac.kr
+  web: https://jeman-khu.notion.site/
+  # scopus: 7102049033
+  # orcid: 0000-0002-8036-0879
+  # researcherID: C-5714-2008
+  # loop: 406457
+  # linked: gehoon
+  # fb: byeongmin.lee.9
+  # twitter: gehoon
+  # instagram: gehoon
 
 Members:
 - name: 전학생
