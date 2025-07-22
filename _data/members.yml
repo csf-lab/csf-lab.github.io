@@ -1,11 +1,11 @@
 PI:
-- name: 박제만
-  engName: Jeman Park
+- name_ko: 박제만
+  name_en: Jeman Park
   # degree: DDS, PhD
   # bio: Electrophysiology, Computational Biology
   jobtitle: Assistant Professor
-  portrait: anonymous.jpg
-  e-mail: jeman@khu.ac.kr
+  photo: anonymous.jpg
+  email: jeman@khu.ac.kr
   web: https://jeman-khu.notion.site/
   # scopus: 7102049033
   # orcid: 0000-0002-8036-0879
